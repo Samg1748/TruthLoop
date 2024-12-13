@@ -14,7 +14,7 @@ To set up the TruthLoop system, you must:
 
 # Alternate Setup for the Synchronized CARLA-LIMO System Instead of TruthLoop
 - Rosrun limo_info_publisher_545 on the LIMO first
-- Rosrun carla_pub_PID_V3.py on the CARLA machine for the synchronized system
+- Rosrun carla_pub_PID.py on the CARLA machine for the synchronized system
 
 # Other Scripts and their Uses
 If you want to try TruthLoop on a different course/track:
