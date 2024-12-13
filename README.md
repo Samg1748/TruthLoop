@@ -9,7 +9,7 @@ To set up the TruthLoop system, you must:
 - Initialize the roscore on the Carla Machine
 - Rosrun limo_info_publisher_545.py on the LIMO first
 - Rosrun Mocap_Communication.m on the MoCap laptop next to start the MoCap data publishing to ROS
-- Plant the straight_waypoints.csv in the same folder as the PID_V3 to simulate on the designated track
+- Plant the straight_waypoints.csv in the same folder as the PID_V3 to simulate the desired waypoints on the designated track
 - Rosrun carla_pub_PID_V3.py on the CARLA machine for the latest lateral PID between the CARLA and LIMO
 
 # Alternate Setup for the Synchronized CARLA-LIMO System Instead of TruthLoop
